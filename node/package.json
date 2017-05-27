@@ -1,0 +1,14 @@
+{
+  "name": "extract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christopher Pietsch",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-stream": "^1.3.2"
+  }
+}
