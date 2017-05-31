@@ -5,8 +5,8 @@ const PDFStringifyTransform = require('pdf-stream').PDFStringifyTransform;
 const PDFReadable = require('pdf-stream').PDFReadable;
 
 // // Load file contents to ArrayBuffer synchronously 
-let file = '../pdf/freud_werke_bd8.pdf';
-let output = fs.createWriteStream('pdf.txt');
+let file = process.argv[2];
+let output = fs.createWriteStream(process.argv[3]);
 let pdf = new Uint8Array(fs.readFileSync(file));
 
 // Transform class for replacing strings
